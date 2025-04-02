@@ -12,6 +12,7 @@ tailwind.config = {
         gray: {
           light: '#EEEEEE',
           normal: '#BCBCBC',
+          dark: '#F3F3F3',
         }
       },
       screens: {

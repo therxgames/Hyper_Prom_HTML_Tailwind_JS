@@ -85,84 +85,239 @@
 
             <a href="/" class="text-sm md:text-base">Каталог</a>
           </li>
+
+          <li class="flex gap-2.5 items-center">
+            <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000644445 0.962203L0.466572 0.5L4 3.9997L0.466572 7.5L0 7.0378L3.06682 3.9997L0.000644445 0.962203Z" fill="currentColor"/>
+            </svg>
+
+            <a href="/" class="text-sm md:text-base">Компрессоры</a>
+          </li>
         </ul>
 
-        <div class="mt-2.5 md:mt-5 lg:mt-7 max-w-[800px]">
-          <p class="text-2xl md:text-4xl font-bold">Каталог</p>
+        <div class="mt-2.5 md:mt-5 lg:mt-7">
+          <div class="">
+            <p class="text-2xl md:text-4xl font-bold uppercase w-80">Информация</p>
 
-          <p class="mt-5 text-sm md:text-base">Наша продукция включает генераторы, насосные подстанции, компрессионное оборудование, а также системы воздухоподготовки</p>
-        </div>  
-  
-        <div class="relative mt-5 md:mt-7 xl:mt-10 xl:px-11">
-          <div class="catalog-slider overflow-hidden">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-    
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-  
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-  
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-  
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-  
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-  
-              <div class="swiper-slide">
-                <a href="/">
-                  <img class="h-full object-cover" src="../images/catalog-slide.png" />
-    
-                  <p class="text-lg md:text-xl font-semibold mt-5 break-words">Компрессоры</p>
-                </a>
-              </div>
-            </div>
-    
-            <div class="catalog-slider-pagination"></div>
+            <p class="text-sm md:text-base mt-2.5 lg:w-[700px]">
+              Наша продукция включает генераторы, насосные подстанции, компрессионное оборудование, а также системы воздухоподготовки
+            </p>
           </div>
+
+          <div class="mt-5 md:mt-7 lg:mt-5">
+            <div class="flex flex-col lg:flex-row gap-10 md:gap-7 lg:gap-16">
+              <div class="w-80 md:w-full flex lg:flex-col gap-2.5 lg:gap-0 overflow-x-scroll blue-scroll lg:overflow-visible pb-5 lg:pb-0">
+                <div 
+                  class="
+                    bg-blue-normal text-white border border-blue-normal
+                    flex items-center justify-center lg:justify-start flex-shrink-0 border
+                    py-4 lg:py-3 lg:px-7 w-80 lg:w-full cursor-pointer text-sm md:text-base whitespace-nowrap
+                  ">
+                    Новости
+                </div>
+
+                <div 
+                  class="
+                    flex items-center justify-center lg:justify-start flex-shrink-0 border border-black
+                    py-4 lg:py-3 lg:px-7 w-80 lg:w-full cursor-pointer text-sm md:text-base whitespace-nowrap
+                  ">
+                    Оплата и доставка
+                </div>
+
+                <div 
+                  class="
+                    flex items-center justify-center lg:justify-start flex-shrink-0 border border-black lg:border-t-0
+                    py-4 lg:py-3 lg:px-7 w-80 lg:w-full cursor-pointer text-sm md:text-base whitespace-nowrap
+                  ">
+                    Гарантии
+                </div>
+              </div>
+
+              <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5">
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
   
-          <div class="catalog-slider-navigation">
-            <div class="catalog-slider-button-prev">
-              <img src="../icons/arrow-left-2.svg" />
-            </div>
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+  
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
+  
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
+  
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
+  
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
+  
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+
+                  <div>
+                    <img src="../images/information-card.png" />
+                  
+                    <div class="flex gap-2.5 mt-5 items-start md:items-center">
+                      <img src="../icons/calendar.svg" />
+  
+                      <p class="text-sm md:text-base">
+                        5 февраля 2025 года
+                      </p>
+                    </div>
+  
+                    <p class="text-base md:text-lg font-bold mt-5">
+                      Новые модели компрессоров уже в продаже
+                    </p>
+  
+                    <p class="text-sm md:text-base mt-2.5">
+                      Мы расширяем ассортимент! Новая линейка компрессоров HD-14 теперь доступна для заказа. Улучшенная энергоэффективность, повышенный ресурс работы и современные технологии делают….
+                    </p>
+  
+                    <a href="/" class="flex gap-2.5 mt-4 lg:mt-12 items-center">
+                      <p>Читать новость</p>
+  
+                      <img src="../icons/arrow-right.svg" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="mt-7 md:mt-10 flex justify-center gap-4">
+                  <div class="w-12 h-12 flex justify-center items-center border border-gray-normal cursor-pointer">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.22 6.7179C0.0793075 6.57738 0.000175052 6.38674 0 6.1879V5.8079C0.00230401 5.60948 0.081116 5.41962 0.22 5.2779L5.36 0.147899C5.45388 0.0532428 5.58168 0 5.715 0C5.84832 0 5.97612 0.0532428 6.07 0.147899L6.78 0.857899C6.87406 0.950063 6.92707 1.07621 6.92707 1.2079C6.92707 1.33959 6.87406 1.46574 6.78 1.5579L2.33 5.9979L6.78 10.4379C6.87466 10.5318 6.9279 10.6596 6.9279 10.7929C6.9279 10.9262 6.87466 11.054 6.78 11.1479L6.07 11.8479C5.97612 11.9426 5.84832 11.9958 5.715 11.9958C5.58168 11.9958 5.45388 11.9426 5.36 11.8479L0.22 6.7179Z" fill="#BCBCBC"></path>
+                    </svg>                    
+                  </div>
     
-            <div class="catalog-slider-button-next">
-              <img src="../icons/arrow-right-2.svg" />
+                  <div class="w-12 h-12 flex justify-center items-center bg-blue-normal cursor-pointer">
+                    <span class="text-white text-base md:text-lg font-bold">1</span>                  
+                  </div>
+    
+                  <div class="w-12 h-12 flex justify-center items-center border border-blue-normal cursor-pointer">
+                    <span class="text-blue-normal text-base md:text-lg font-bold">2</span>                  
+                  </div>
+    
+                  <div class="w-12 h-12 flex justify-center items-center border border-blue-normal cursor-pointer">
+                    <span class="text-blue-normal text-base md:text-lg font-bold">3</span>                  
+                  </div>
+    
+                  <div class="w-12 h-12 flex justify-center items-center border border-gray-normal cursor-pointer">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.78 6.7179C6.92069 6.57738 6.99982 6.38674 7 6.1879V5.8079C6.9977 5.60948 6.91888 5.41962 6.78 5.2779L1.64 0.147899C1.54612 0.0532428 1.41832 0 1.285 0C1.15168 0 1.02388 0.0532428 0.93 0.147899L0.22 0.857899C0.125936 0.950063 0.0729284 1.07621 0.0729284 1.2079C0.0729284 1.33959 0.125936 1.46574 0.22 1.5579L4.67 5.9979L0.22 10.4379C0.125343 10.5318 0.0721006 10.6596 0.0721006 10.7929C0.0721006 10.9262 0.125343 11.054 0.22 11.1479L0.93 11.8479C1.02388 11.9426 1.15168 11.9958 1.285 11.9958C1.41832 11.9958 1.54612 11.9426 1.64 11.8479L6.78 6.7179Z" fill="#262267"></path>
+                    </svg>                                     
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -171,11 +326,7 @@
 
     <section class="py-10 md:py-12 lg:py-20">
       <div class="container">
-        <div class="max-w-[800px]">
-          <p class="text-2xl md:text-4xl font-bold">Популярные товары</p>
-
-          <p class="mt-5 text-sm md:text-base">Наша продукция включает генераторы, насосные подстанции, компрессионное оборудование, а также системы воздухоподготовки</p>
-        </div>
+        <p class="text-2xl md:text-4xl font-bold">Популярные товары</p>
   
         <div class="relative mt-5 md:mt-7 lg:mt-10 lg:px-11">
           <div class="goods-slider overflow-hidden">
@@ -488,96 +639,139 @@
     </div>
   </footer>
 
+  <script src="../js/tailwind.config.js"></script>
+  <script src="../libs/swiper/swiper.js"></script>
+
+  <script>
+    const goodsSwiper = new Swiper('.goods-slider', {
+      pagination: {
+        clickable: true,
+        el: '.goods-slider-pagination',
+      },
+      navigation: {
+        nextEl: '.goods-slider-button-next',
+        prevEl: '.goods-slider-button-prev',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1.2,
+          spaceBetween: 20
+        },
+        687: {
+          slidesPerView: 2.3,
+          spaceBetween: 20,
+        },
+        1250: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        },
+        1750: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        }
+      }
+    });
+
+    const productThumbsSwiper = new Swiper(".product-thumbs-slider", {
+      spaceBetween: 10,
+      slidesPerView: 5,
+      breakpoints: {
+        320: {
+          direction: 'horizontal',
+        },
+        687: {
+          direction: 'vertical',
+        },
+        1250: {
+          direction: 'vertical',
+        },
+        1750: {
+          direction: 'vertical',
+        }
+      }
+    });
+    
+    const productSwiper = new Swiper('.product-slider', {
+      slidesPerView: 1,
+      navigation: {
+        nextEl: '.product-slider-button-next',
+        prevEl: '.product-slider-button-prev',
+      },
+      thumbs: {
+        swiper: productThumbsSwiper,
+      },
+      breakpoints: {
+        320: {
+          spaceBetween: 30,
+        },
+        687: {
+          spaceBetween: 30,
+        },
+        1250: {
+          spaceBetween: 30,
+        },
+        1750: {
+          spaceBetween: 30,
+        }
+      }
+    });
+
+    const characteristicsTitle = [
+      ...document.querySelectorAll(".characteristics-title"),
+    ];
+
+    const productInfoBtns = [
+      ...document.querySelectorAll(".product-info-btn"),
+    ];
+
+    const productInfoItems = [
+      ...document.querySelectorAll(".product-info-item"),
+    ];
+
+    characteristicsTitle.forEach((item) => {
+      item.addEventListener("click", function (event) {
+        const dropdown = event.currentTarget.closest(".characteristics-container").querySelector(".characteristics-dropdown");
+        const arrow = event.currentTarget.querySelector("svg");
+
+        if (dropdown) {
+          // Переключение видимости
+          dropdown.classList.toggle("hidden");
+
+          // Переключение классов для поворота стрелки и изменения цвета
+          arrow.classList.toggle("rotate-180");
+        }
+      });
+    });
+
+
+    productInfoBtns.forEach((item) => {
+      item.addEventListener("click", function (event) {
+        const dataTarget = event.currentTarget.dataset.target;
+        const productTarget = document.getElementById(dataTarget);
+
+        // Удаление стилей с других кнопок
+        productInfoBtns.forEach(button => {
+          button.classList.remove('bg-blue-normal', 'text-white');
+        });
+
+        // Скрытие всех элементов
+        productInfoItems.forEach(info => {
+          info.classList.add('hidden');
+        });
+
+        // Показ нужного элемента
+        productTarget.classList.remove('hidden');
+
+        // Добавление стилей к нажатой кнопке
+        event.currentTarget.classList.add('bg-blue-normal', 'text-white');
+      });
+    });
+  </script>
+
   <style>
-    /* catalog-slider */
+    /* goods-slider */
 
-    .catalog-slider .catalog-slider-pagination {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 50px;
-      --swiper-pagination-bullet-horizontal-gap: 7.5px;
-
-      @media screen and (min-width: 678px) and (max-width: 1250px) {
-        margin-top: 40px;
-      }
-
-      @media screen and (max-width: 678px) {
-        margin-top: 30px;
-      }
-    }
-
-    .catalog-slider-pagination .swiper-pagination-bullet {
-      width: 25px;
-      height: 25px;
-      background: none;
-      border: 1px solid #262267;
-      opacity: 1;
-
-      @media screen and (max-width: 1250px) {
-        width: 20px;
-        height: 20px;
-      }
-    }
-
-    .catalog-slider-pagination .swiper-pagination-bullet-active {
-      width: 34px;
-      height: 34px;
-      background: #262267;
-
-      @media screen and (max-width: 1250px) {
-        width: 28px;
-        height: 28px;
-      }
-    }
-
-    .catalog-slider-navigation .swiper-button-disabled {
-      opacity: 0.4;
-    }
-
-    .catalog-slider-button-prev {
-      position: absolute;
-      z-index: 10;
-      top: 30%;
-      left: 0;
-      transform: translateY(-30%);
-
-      @media screen and (max-width: 1250px) {
-        transform: none;
-        top: initial;
-        left: initial;
-        right: 90px;
-        bottom: 0;
-      }
-
-      @media screen and (max-width: 678px) {
-        display: none;
-      }
-    }
-
-    .catalog-slider-button-next {
-      position: absolute;
-      z-index: 10;
-      top: 30%;
-      right: 0;
-      transform: translateY(-30%);
-
-      @media screen and (max-width: 1250px) {
-        transform: none;
-        top: initial;
-        left: initial;
-        right: 0;
-        bottom: 0;
-      }
-
-      @media screen and (max-width: 678px) {
-        display: none;
-      }
-    }
-
-     /* goods-slider */
-
-     .goods-slider-navigation .swiper-button-disabled {
+    .goods-slider-navigation .swiper-button-disabled {
       opacity: 0.4;
     }
 
@@ -660,69 +854,56 @@
         height: 28px;
       }
     }
+    
+    /* product-slider */
+    .product-slider {
+      width: 750px;
+
+      @media screen and (max-width: 1250px) {
+        margin-right: 20px;
+        width: 100%;
+      }
+    }
+
+    .product-thumbs-slider {
+      @media screen and (max-width: 1250px) {
+        width: 115px;
+        height: 100%;
+      }
+
+      @media screen and (max-width: 678px) {
+        width: 100%;
+        height: 55px;
+      }
+    }
+
+    .product-slider-navigation .swiper-button-disabled {
+      opacity: 0.5;
+    }
+
+    .product-slider-navigation {
+      display: flex;
+      gap: 14px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+
+      @media screen and (max-width: 678px) {
+        position: relative;
+      }
+    }
+
+    .product-slider-button-next, .product-slider-button-prev {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      background: theme('colors.yellow');
+      border-radius: 2px;
+    }
   </style>
 
-  <script src="../js/tailwind.config.js"></script>
-  <script src="../libs/swiper/swiper.js"></script>
-
-  <script>
-    const catalogSwiper = new Swiper('.catalog-slider', {
-      pagination: {
-        clickable: true,
-        el: '.catalog-slider-pagination',
-      },
-      navigation: {
-        nextEl: '.catalog-slider-button-next',
-        prevEl: '.catalog-slider-button-prev',
-      },
-      breakpoints: {
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 10
-        },
-        687: {
-          slidesPerView: 1.5,
-          spaceBetween: 20,
-        },
-        1250: {
-          slidesPerView: 4,
-          spaceBetween: 20,
-        },
-        1750: {
-          slidesPerView: 4,
-          spaceBetween: 20,
-        }
-      }
-    });
-
-    const goodsSwiper = new Swiper('.goods-slider', {
-      pagination: {
-        clickable: true,
-        el: '.goods-slider-pagination',
-      },
-      navigation: {
-        nextEl: '.goods-slider-button-next',
-        prevEl: '.goods-slider-button-prev',
-      },
-      breakpoints: {
-        320: {
-          slidesPerView: 1.2,
-          spaceBetween: 20
-        },
-        687: {
-          slidesPerView: 2.3,
-          spaceBetween: 20,
-        },
-        1250: {
-          slidesPerView: 5,
-          spaceBetween: 30,
-        },
-        1750: {
-          slidesPerView: 5,
-          spaceBetween: 30,
-        }
-      }
-    });
-  </script>
 </body>
 </html>
