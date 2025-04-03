@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../libs/swiper/swiper.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Личный кабинет</title>
+</head>
+
+<body class="flex flex-col min-h-[100vh]">
+    <header class="py-2.5 md:py-4 lg:py-6 shadow-header">
+        <div class="container flex items-center justify-between">
+            <a href="/">
+                <img class="block md:hidden" src="../icons/logo-mobile.svg" />
+                <img class="hidden md:block" src="../icons/logo.svg" />
+            </a>
+
+            <nav class="ml-10 lg:ml-12 xl:ml-24 hidden lg:block">
+                <ul class="flex gap-6 lg:gap-5 xl:gap-10">
+                    <li>
+                        <a href="./about.html" class="text-sm md:text-base">О компании</a>
+                    </li>
+
+                    <li>
+                        <a href="./catalog.html" class="text-sm md:text-base">Каталог</a>
+                    </li>
+
+                    <li>
+                        <a href="/" class="text-sm md:text-base">Проекты</a>
+                    </li>
+
+                    <li>
+                        <button class="flex items-center">
+              <span class="text-sm md:text-base">Информация</span>
+              <img class="ml-2.5" src="../icons/arrow-down.svg" />
+            </button>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-sm md:text-base">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="lg:hidden md:ml-10 ml-5">
+        <img class="w-4 h-3 md:h-full md:w-full" src="../icons/burger-menu.svg" />
+      </button>
+
+            <div class="ml-auto flex items-center">
+                <div class="flex items-center gap-x-6 mr-5 md:mr-10 lg:mr-8">
+                    <a href="/">
+                        <img class="w-5 h-5" src="../icons/phone.svg" />
+                    </a>
+
+                    <span class="hidden lg:block text-sm md:text-base">+39 248-282-424</span>
+                </div>
+
+                <a href="/" class="mr-4 md:mr-9 lg:mr-8">
+                    <img class="w-6 h-6" src="../icons/human.svg" />
+                </a>
+
+                <button class="relative text-sm md:text-base py-2 md:py-3 px-7 md:px-9 bg-blue-normal text-white clip-btn whitespace-nowrap">        
+          Заказать звонок 
+        </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="grow">
+        <section class="min-h-screen flex items-center justify-center bg-white">
+            <div class="text-center pt-10 w-full from-black/5 to-transparent">
+                <h1 class="text-[32px] sm:text-[42px] lg:text-[50px] leading-[140%] font-bold uppercase">
+                    Данная страница<br>находится в разработке
+                </h1>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="py-5 md:py-7 lg:py-20 bg-blue-normal text-white">
+        <div class="container">
+            <div class="grid md:grid-cols-2 md:justify-between">
+                <div class="flex flex-col h-full md:max-w-[300px] lg:max-w-[700px]">
+                    <div class="shrink-0">
+                        <img src="../icons/logo-2.svg" />
+                    </div>
+
+                    <p class="mt-5 md:mt-3 flex-grow text-sm md:text-base">
+                        GiperProm предлагает генераторы с двигателями SDEC и Weichai, а также насосные подстанции, компрессионное оборудование и системы воздухоподготовки для промышленности и строительства.
+                    </p>
+
+                    <div class="flex items-center gap-2.5 md:gap-8 mt-5 md:mt-auto">
+                        <a href="/">
+                            <img src="../icons/whatsapp.svg" />
+                        </a>
+
+                        <a href="/">
+                            <img src="../icons/telegram.svg" />
+                        </a>
+
+                        <a href="/">
+                            <img src="../icons/vk.svg" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col flex-col-reverse mt-5 md:mt-9 lg:mt-0 lg:flex-row gap-y-5 md:gap-y-5 md:max-w-[300px] lg:max-w-[700px] lg:gap-x-36 md:ml-auto">
+                    <div class="">
+                        <p class="uppercase text-base md:text-lg opacity-60">Карта сайта</p>
+
+                        <ul class="mt-4 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-none gap-y-2 text-sm md:text-base">
+                            <li class=""><a href="/">Главная</a></li>
+                            <li class=""><a href="/">Каталог</a></li>
+                            <li class=""><a href="/">О компании</a></li>
+                            <li class=""><a href="/">Проекты</a></li>
+                            <li class=""><a href="/">Новости</a></li>
+                            <li class=""><a href="/">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="text-sm md:text-base uppercase opacity-60">Контакты</p>
+                        <ul class="mt-4 flex flex-col gap-y-2 text-sm md:text-base">
+                            <li class="">Москва, ул. Примерная, д. 123, индекс 5000000</li>
+                            <li class=""><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                            <li class=""><a href="/">8-999-444-88-82</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 md:mt-7 lg:mt-24 pt-2 flex flex-col md:flex-row justify-between items-baseline border-t border-white">
+                <div class="flex gap-2.5">
+                    <span class="opacity-50 text-sm md:text-base">© 2025</span>
+                    <span class="opacity-50 text-sm md:text-base">Политика конфиденциальности</span>
+                </div>
+
+                <div class="flex items-baseline gap-5">
+                    <span class="opacity-50 text-sm md:text-base">Разработан компанией</span>
+                    <img src="../icons/echo-logo.svg" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+
+    </style>
+
+    <script src="../js/tailwind.config.js"></script>
+    <script src="../libs/swiper/swiper.js"></script>
+
+    <script>
+        const categoryFilters = [...document.querySelectorAll('.category-filter')]
+
+        categoryFilters.forEach(item => {
+            item.addEventListener('click', function(event) {
+                const dropdown = event.currentTarget.closest('.category-filter-container').querySelector('.category-filter-dropdown');
+                const arrow = event.currentTarget.querySelector('img');
+
+                if (dropdown) {
+                    dropdown.classList.toggle('hidden');
+                    arrow.src = dropdown.classList.contains('hidden') ? "../icons/arrow-down-2.svg" : "../icons/arrow-up.svg";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

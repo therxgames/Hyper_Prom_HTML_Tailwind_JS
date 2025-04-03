@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../libs/swiper/swiper.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>О компании</title>
+</head>
+
+<body class="flex flex-col min-h-[100vh]">
+    <header class="py-2.5 md:py-4 lg:py-6 shadow-header">
+        <div class="container flex items-center justify-between">
+            <a href="/">
+                <img class="block md:hidden" src="../icons/logo-mobile.svg" />
+                <img class="hidden md:block" src="../icons/logo.svg" />
+            </a>
+
+            <nav class="ml-10 lg:ml-12 xl:ml-24 hidden lg:block">
+                <ul class="flex gap-6 lg:gap-5 xl:gap-10">
+                    <li>
+                        <a href="./about.html" class="text-sm md:text-base">О компании</a>
+                    </li>
+
+                    <li>
+                        <a href="./catalog.html" class="text-sm md:text-base">Каталог</a>
+                    </li>
+
+                    <li>
+                        <a href="/" class="text-sm md:text-base">Проекты</a>
+                    </li>
+
+                    <li>
+                        <button class="flex items-center">
+              <span class="text-sm md:text-base">Информация</span>
+              <img class="ml-2.5" src="../icons/arrow-down.svg" />
+            </button>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-sm md:text-base">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="lg:hidden md:ml-10 ml-5">
+        <img class="w-4 h-3 md:h-full md:w-full" src="../icons/burger-menu.svg" />
+      </button>
+
+            <div class="ml-auto flex items-center">
+                <div class="flex items-center gap-x-6 mr-5 md:mr-10 lg:mr-8">
+                    <a href="/">
+                        <img class="w-5 h-5" src="../icons/phone.svg" />
+                    </a>
+
+                    <span class="hidden lg:block text-sm md:text-base">+39 248-282-424</span>
+                </div>
+
+                <a href="/" class="mr-4 md:mr-9 lg:mr-8">
+                    <img class="w-6 h-6" src="../icons/human.svg" />
+                </a>
+
+                <button class="relative text-sm md:text-base py-2 md:py-3 px-7 md:px-9 bg-blue-normal text-white clip-btn whitespace-nowrap">        
+          Заказать звонок 
+        </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="grow">
+        <section class="pt-2.5 md:pt-5 lg:pt-7 pb-10 md:pb-14 lg:pb-8">
+            <div class="container">
+                <ul class="flex gap-x-2.5 items-center">
+                    <li>
+                        <a href="/" class="text-sm md:text-base">Главная</a>
+                    </li>
+
+
+
+                    <li class="flex gap-2.5 items-center">
+                        <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000644445 0.962203L0.466572 0.5L4 3.9997L0.466572 7.5L0 7.0378L3.06682 3.9997L0.000644445 0.962203Z" fill="currentColor"/>
+            </svg>
+
+                        <a href="/" class="text-sm md:text-base">Реализованные проекты</a>
+                    </li>
+                </ul>
+
+                <div class="mt-2.5 md:mt-5 lg:mt-7">
+                    <p class="text-2xl md:text-4xl font-bold">Реализованные проекты</p>
+
+
+
+
+                </div>
+            </div>
+
+        </section>
+        <div class="container">
+            <div class="flex flex-wrap gap-2" id="tags">
+                <button class="tag px-4 py-2 border text-sm md:text-base uppercase bg-blue-normal text-white">#все</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#генератор</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#наука</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#компрессор</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#вентиляция</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#насосы</button>
+                <button class="tag px-4 py-2 border border-black text-sm md:text-base uppercase">#news</button>
+            </div>
+
+        </div>
+        <section class="pt-2.5 md:pt-5 lg:pt-7 pb-10 md:pb-14 lg:pb-20">
+            <div class="container  space-y-10">
+                <div class="flex flex-col lg:flex-row gap-7 border-t pt-10 border-[rgba(0,0,0,0.5)]">
+                    <!-- Картинка -->
+                    <img src="../images/projects-thumb-slide.png" alt="project image" class="order-1 lg:order-1 w-full lg:w-[43%] h-auto object-cover" />
+
+                    <!-- Текст -->
+                    <div class="order-3 lg:order-2 flex flex-col justify-between lg:w-[32%] lg:ml-auto">
+                        <div>
+                            <h3 class="text-xl md:text-3xl font-bold mb-2">
+                                Модернизация системы сжатого воздуха на производстве строительных материалов
+                            </h3>
+                            <p class="text-sm md:text-base text-black/80">
+                                Крупный завод по изготовлению бетонных смесей испытывал дефицит сжатого воздуха и страдал от простоев в пиковые моменты производства. Специалисты GiperProm подобрали и установили линейку энергосберегающих компрессоров HD-14, создали разводку с дополнительными
+                                ресиверами и подключили систему автоматического контроля давления. Это позволило сократить энергозатраты на 20% и обеспечить бесперебойную работу всего оборудования даже в час-пик.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Ссылки -->
+                    <div class="order-2 lg:order-3 flex md:flex-row lg:flex-col flex-col gap-2 items-start lg:items-start lg:w-[16%]">
+                        <a href="/" class="lg:ml-auto whitespace-nowrap bg-[#45403F] text-white text-sm md:text-base px-4 py-2 flex items-center gap-2">
+                          Электростанции
+                          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M1.26946 12.8027C0.878931 13.1932 0.878931 13.8263 1.26946 14.2169C1.65998 14.6074 2.29314 14.6074 2.68367 14.2169L1.26946 12.8027ZM14.9974 1.48895C14.9974 0.936665 14.5497 0.48895 13.9974 0.48895L4.99738 0.48895C4.44509 0.48895 3.99738 0.936665 3.99738 1.48895C3.99738 2.04123 4.44509 2.48895 4.99738 2.48895L12.9974 2.48895L12.9974 10.4889C12.9974 11.0412 13.4451 11.4889 13.9974 11.4889C14.5497 11.4889 14.9974 11.0412 14.9974 10.4889L14.9974 1.48895ZM2.68367 14.2169L14.7045 2.19606L13.2903 0.781843L1.26946 12.8027L2.68367 14.2169Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </a>
+                        <a href="/" class="lg:ml-auto whitespace-nowrap bg-[#45403F] text-white text-sm md:text-base px-4 py-2 flex items-center gap-2">
+                          Блок-контейнеры
+                          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M1.26946 12.8027C0.878931 13.1932 0.878931 13.8263 1.26946 14.2169C1.65998 14.6074 2.29314 14.6074 2.68367 14.2169L1.26946 12.8027ZM14.9974 1.48895C14.9974 0.936665 14.5497 0.48895 13.9974 0.48895L4.99738 0.48895C4.44509 0.48895 3.99738 0.936665 3.99738 1.48895C3.99738 2.04123 4.44509 2.48895 4.99738 2.48895L12.9974 2.48895L12.9974 10.4889C12.9974 11.0412 13.4451 11.4889 13.9974 11.4889C14.5497 11.4889 14.9974 11.0412 14.9974 10.4889L14.9974 1.48895ZM2.68367 14.2169L14.7045 2.19606L13.2903 0.781843L1.26946 12.8027L2.68367 14.2169Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-7 border-t pt-10  border-[rgba(0,0,0,0.5)]">
+                    <img src="../images/projects-thumb-slide.png" alt="project image" class="w-full lg:w-[43%] h-auto object-cover" />
+
+                    <div class="flex flex-col justify-between lg:w-[32%] ml-auto">
+                        <div>
+                            <h3 class="text-xl md:text-3xl font-bold mb-2">
+                                Модернизация системы сжатого воздуха на производстве строительных материалов
+                            </h3>
+                            <p class="text-sm md:text-base text-black/80">
+                                Крупный завод по изготовлению бетонных смесей испытывал дефицит сжатого воздуха и страдал от простоев в пиковые моменты производства. Специалисты GiperProm подобрали и установили линейку энергосберегающих компрессоров HD-14, создали разводку с дополнительными
+                                ресиверами и подключили систему автоматического контроля давления. Это позволило сократить энергозатраты на 20% и обеспечить бесперебойную работу всего оборудования даже в час-пик
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start lg:items-start lg:w-[16%]">
+                        <a href="/" class="ml-auto whitespace-nowrap bg-[#45403F] text-white text-sm md:text-base px-4 py-2 flex items-center gap-2">
+                          Системы воздухоподготовки
+                          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.26946 12.8027C0.878931 13.1932 0.878931 13.8263 1.26946 14.2169C1.65998 14.6074 2.29314 14.6074 2.68367 14.2169L1.26946 12.8027ZM14.9974 1.48895C14.9974 0.936665 14.5497 0.48895 13.9974 0.48895L4.99738 0.48895C4.44509 0.48895 3.99738 0.936665 3.99738 1.48895C3.99738 2.04123 4.44509 2.48895 4.99738 2.48895L12.9974 2.48895L12.9974 10.4889C12.9974 11.0412 13.4451 11.4889 13.9974 11.4889C14.5497 11.4889 14.9974 11.0412 14.9974 10.4889L14.9974 1.48895ZM2.68367 14.2169L14.7045 2.19606L13.2903 0.781843L1.26946 12.8027L2.68367 14.2169Z" fill="white" />
+                          </svg>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-7 border-t pt-10  border-[rgba(0,0,0,0.5)]">
+                    <img src="../images/projects-thumb-slide.png" alt="project image" class="w-full lg:w-[43%] h-auto object-cover" />
+
+                    <div class="flex flex-col justify-between lg:w-[32%] ml-auto">
+                        <div>
+                            <h3 class="text-xl md:text-3xl font-bold mb-2">
+                                Модернизация системы сжатого воздуха на производстве строительных материалов
+                            </h3>
+                            <p class="text-sm md:text-base text-black/80">
+                                Крупный завод по изготовлению бетонных смесей испытывал дефицит сжатого воздуха и страдал от простоев в пиковые моменты производства. Специалисты GiperProm подобрали и установили линейку энергосберегающих компрессоров HD-14, создали разводку с дополнительными
+                                ресиверами и подключили систему автоматического контроля давления. Это позволило сократить энергозатраты на 20% и обеспечить бесперебойную работу всего оборудования даже в час-пик
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start lg:items-start lg:w-[16%]">
+                        <a href="/" class="ml-auto whitespace-nowrap bg-[#45403F] text-white text-sm md:text-base px-4 py-2 flex items-center gap-2">
+                          Системы воздухоподготовки
+                          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.26946 12.8027C0.878931 13.1932 0.878931 13.8263 1.26946 14.2169C1.65998 14.6074 2.29314 14.6074 2.68367 14.2169L1.26946 12.8027ZM14.9974 1.48895C14.9974 0.936665 14.5497 0.48895 13.9974 0.48895L4.99738 0.48895C4.44509 0.48895 3.99738 0.936665 3.99738 1.48895C3.99738 2.04123 4.44509 2.48895 4.99738 2.48895L12.9974 2.48895L12.9974 10.4889C12.9974 11.0412 13.4451 11.4889 13.9974 11.4889C14.5497 11.4889 14.9974 11.0412 14.9974 10.4889L14.9974 1.48895ZM2.68367 14.2169L14.7045 2.19606L13.2903 0.781843L1.26946 12.8027L2.68367 14.2169Z" fill="white" />
+                          </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- дублируй этот блок для остальных проектов -->
+                <div class="mt-7 md:mt-10 flex justify-center gap-4">
+                    <div class="w-12 h-12 flex justify-center items-center border border-gray-normal cursor-pointer">
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0.22 6.7179C0.0793075 6.57738 0.000175052 6.38674 0 6.1879V5.8079C0.00230401 5.60948 0.081116 5.41962 0.22 5.2779L5.36 0.147899C5.45388 0.0532428 5.58168 0 5.715 0C5.84832 0 5.97612 0.0532428 6.07 0.147899L6.78 0.857899C6.87406 0.950063 6.92707 1.07621 6.92707 1.2079C6.92707 1.33959 6.87406 1.46574 6.78 1.5579L2.33 5.9979L6.78 10.4379C6.87466 10.5318 6.9279 10.6596 6.9279 10.7929C6.9279 10.9262 6.87466 11.054 6.78 11.1479L6.07 11.8479C5.97612 11.9426 5.84832 11.9958 5.715 11.9958C5.58168 11.9958 5.45388 11.9426 5.36 11.8479L0.22 6.7179Z" fill="#BCBCBC"/>
+                                    </svg>
+                    </div>
+
+                    <div class="w-12 h-12 flex justify-center items-center bg-blue-normal cursor-pointer">
+                        <span class="text-white text-base md:text-lg font-bold">1</span>
+                    </div>
+
+                    <div class="w-12 h-12 flex justify-center items-center border border-blue-normal cursor-pointer">
+                        <span class="text-blue-normal text-base md:text-lg font-bold">2</span>
+                    </div>
+
+                    <div class="w-12 h-12 flex justify-center items-center border border-blue-normal cursor-pointer">
+                        <span class="text-blue-normal text-base md:text-lg font-bold">3</span>
+                    </div>
+
+                    <div class="w-12 h-12 flex justify-center items-center border border-gray-normal cursor-pointer">
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M6.78 6.7179C6.92069 6.57738 6.99982 6.38674 7 6.1879V5.8079C6.9977 5.60948 6.91888 5.41962 6.78 5.2779L1.64 0.147899C1.54612 0.0532428 1.41832 0 1.285 0C1.15168 0 1.02388 0.0532428 0.93 0.147899L0.22 0.857899C0.125936 0.950063 0.0729284 1.07621 0.0729284 1.2079C0.0729284 1.33959 0.125936 1.46574 0.22 1.5579L4.67 5.9979L0.22 10.4379C0.125343 10.5318 0.0721006 10.6596 0.0721006 10.7929C0.0721006 10.9262 0.125343 11.054 0.22 11.1479L0.93 11.8479C1.02388 11.9426 1.15168 11.9958 1.285 11.9958C1.41832 11.9958 1.54612 11.9426 1.64 11.8479L6.78 6.7179Z" fill="#262267"/>
+                                    </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer class="py-5 md:py-7 lg:py-20 bg-blue-normal text-white">
+        <div class="container">
+            <div class="grid md:grid-cols-2 md:justify-between">
+                <div class="flex flex-col h-full md:max-w-[300px] lg:max-w-[700px]">
+                    <div class="shrink-0">
+                        <img src="../icons/logo-2.svg" />
+                    </div>
+
+                    <p class="mt-5 md:mt-3 flex-grow text-sm md:text-base">
+                        GiperProm предлагает генераторы с двигателями SDEC и Weichai, а также насосные подстанции, компрессионное оборудование и системы воздухоподготовки для промышленности и строительства.
+                    </p>
+
+                    <div class="flex items-center gap-2.5 md:gap-8 mt-5 md:mt-auto">
+                        <a href="/">
+                            <img src="../icons/whatsapp.svg" />
+                        </a>
+
+                        <a href="/">
+                            <img src="../icons/telegram.svg" />
+                        </a>
+
+                        <a href="/">
+                            <img src="../icons/vk.svg" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col flex-col-reverse mt-5 md:mt-9 lg:mt-0 lg:flex-row gap-y-5 md:gap-y-5 md:max-w-[300px] lg:max-w-[700px] lg:gap-x-36 md:ml-auto">
+                    <div class="">
+                        <p class="uppercase text-base md:text-lg opacity-60">Карта сайта</p>
+
+                        <ul class="mt-4 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-none gap-y-2 text-sm md:text-base">
+                            <li class=""><a href="/">Главная</a></li>
+                            <li class=""><a href="/">Каталог</a></li>
+                            <li class=""><a href="/">О компании</a></li>
+                            <li class=""><a href="/">Проекты</a></li>
+                            <li class=""><a href="/">Новости</a></li>
+                            <li class=""><a href="/">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class="text-sm md:text-base uppercase opacity-60">Контакты</p>
+                        <ul class="mt-4 flex flex-col gap-y-2 text-sm md:text-base">
+                            <li class="">Москва, ул. Примерная, д. 123, индекс 5000000</li>
+                            <li class=""><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                            <li class=""><a href="/">8-999-444-88-82</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 md:mt-7 lg:mt-24 pt-2 flex flex-col md:flex-row justify-between items-baseline border-t border-white">
+                <div class="flex gap-2.5">
+                    <span class="opacity-50 text-sm md:text-base">© 2025</span>
+                    <span class="opacity-50 text-sm md:text-base">Политика конфиденциальности</span>
+                </div>
+
+                <div class="flex items-baseline gap-5">
+                    <span class="opacity-50 text-sm md:text-base">Разработан компанией</span>
+                    <img src="../icons/echo-logo.svg" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+
+    </style>
+
+    <script src="../js/tailwind.config.js"></script>
+    <script src="../libs/swiper/swiper.js"></script>
+
+    <script>
+        const categoryFilters = [...document.querySelectorAll('.category-filter')]
+
+        categoryFilters.forEach(item => {
+            item.addEventListener('click', function(event) {
+                const dropdown = event.currentTarget.closest('.category-filter-container').querySelector('.category-filter-dropdown');
+                const arrow = event.currentTarget.querySelector('img');
+
+                if (dropdown) {
+                    dropdown.classList.toggle('hidden');
+                    arrow.src = dropdown.classList.contains('hidden') ? "../icons/arrow-down-2.svg" : "../icons/arrow-up.svg";
+                }
+            });
+        });
+    </script>
+    <script>
+        document.querySelectorAll('#tags .tag').forEach(tag => {
+            tag.addEventListener('click', () => {
+                document.querySelectorAll('#tags .tag').forEach(btn => {
+                    btn.classList.remove('bg-blue-normal', 'text-white', 'border-transparent');
+                    btn.classList.add('border-black', 'text-black', 'bg-transparent');
+                });
+
+                tag.classList.remove('border-black', 'text-black', 'bg-transparent');
+                tag.classList.add('bg-blue-normal', 'text-white', 'border-transparent');
+            });
+        });
+    </script>
+</body>
+
+</html>
